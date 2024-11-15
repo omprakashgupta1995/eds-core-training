@@ -192,6 +192,7 @@
         "component": "text",
         "name": "quote",
         "label": "Quote Text",
+        "valueType": "string",
         "raw": true
       }
     ]
