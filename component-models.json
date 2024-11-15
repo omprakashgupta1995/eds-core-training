@@ -184,5 +184,15 @@
         "valueType": "string"
       }
     ]
+  },
+  {
+    "id": "quote",
+    "fields": [
+      {
+        "component": "text",
+        "name": "quote",
+        "label": "Quote Text"
+      }
+    ]
   }
 ]
