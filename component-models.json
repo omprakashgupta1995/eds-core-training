@@ -196,5 +196,21 @@
         "raw": true
       }
     ]
+  },
+  {
+    "id": "article",
+    "fields": [
+      {
+        "component" : "reference",
+        "name" : "articleImage",
+        "label" : "Article Image"
+      },
+      {
+        "component": "text",
+        "name": "articleTitle",
+        "label": "Article Title",
+        "valueType": "string"
+      }
+    ]
   }
 ]
