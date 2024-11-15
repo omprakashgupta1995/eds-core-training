@@ -191,7 +191,8 @@
       {
         "component": "text",
         "name": "quote",
-        "label": "Quote Text"
+        "label": "Quote Text",
+        "raw": true
       }
     ]
   }
