@@ -186,6 +186,23 @@
     ]
   },
   {
+    "id": "carousel",
+    "fields": [
+      {
+        "component": "number",
+        "valueType": "number",
+        "name": "timer",
+        "label": "Timer"
+      },
+      {
+        "component": "boolean",
+        "valueType": "boolean",
+        "name": "loop",
+        "label": "Infinite Loop"
+      }
+    ]
+  },
+  {
     "id": "quote",
     "fields": [
       {
@@ -201,9 +218,9 @@
     "id": "article",
     "fields": [
       {
-        "component" : "reference",
-        "name" : "articleImage",
-        "label" : "Article Image"
+        "component": "reference",
+        "name": "articleImage",
+        "label": "Article Image"
       },
       {
         "component": "text",
