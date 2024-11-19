@@ -202,13 +202,13 @@
       {
         "component": "number",
         "valueType": "number",
-        "name": "timer",
+        "name": "teaser_timer",
         "label": "Timer"
       },
       {
         "component": "boolean",
         "valueType": "boolean",
-        "name": "loop",
+        "name": "teaser_loop",
         "label": "Infinite Loop"
       }
     ]
