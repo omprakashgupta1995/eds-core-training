@@ -249,7 +249,7 @@
         "label": "Background Desktop Image"
       },
       {
-        "component": "reference",
+        "component": "text",
         "name": "teaser_deskimageAlt",
         "label": "Background Desktop Image Alt"
       },
@@ -259,7 +259,7 @@
         "label": "Background Mobile Image"
       },
       {
-        "component": "reference",
+        "component": "text",
         "name": "teaser_mobimageAlt",
         "label": "Background Mobile Image Alt"
       }
