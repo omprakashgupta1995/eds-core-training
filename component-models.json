@@ -202,13 +202,13 @@
       {
         "component": "number",
         "valueType": "number",
-        "name": "teaser_timer",
+        "name": "carousel_timer",
         "label": "Timer"
       },
       {
         "component": "boolean",
         "valueType": "boolean",
-        "name": "teaser_loop",
+        "name": "carousel_loop",
         "label": "Infinite Loop"
       }
     ]
@@ -228,10 +228,40 @@
         ]
       },
       {
-        "component": "boolean",
-        "valueType": "boolean",
-        "name": "loop",
-        "label": "Infinite Loop"
+        "component": "multiselect",
+        "name": "teaser_classes",
+        "label": "Background Style",
+        "options": [
+          {
+            "name": "Background Color",
+            "children": [
+              {
+                "name": "Red",
+                "value": "red"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "component": "reference",
+        "name": "teaser_deskimage",
+        "label": "Background Desktop Image"
+      },
+      {
+        "component": "reference",
+        "name": "teaser_deskimageAlt",
+        "label": "Background Desktop Image Alt"
+      },
+      {
+        "component": "reference",
+        "name": "teaser_mobimage",
+        "label": "Background Mobile Image"
+      },
+      {
+        "component": "reference",
+        "name": "teaser_mobimageAlt",
+        "label": "Background Mobile Image Alt"
       }
     ]
   },
