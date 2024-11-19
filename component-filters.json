@@ -20,6 +20,10 @@
     ]
   },
   {
+    "id": "carousel",
+    "components": ["teaser"]
+  },
+  {
     "id": "cards",
     "components": ["card"]
   },

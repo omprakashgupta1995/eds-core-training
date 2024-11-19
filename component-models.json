@@ -189,10 +189,43 @@
     "id": "carousel",
     "fields": [
       {
+        "component": "multiselect",
+        "name": "classes",
+        "label": "Style",
+        "options": [
+          {
+            "name": "Highlight",
+            "value": "highlight"
+          }
+        ]
+      },
+      {
         "component": "number",
         "valueType": "number",
         "name": "timer",
         "label": "Timer"
+      },
+      {
+        "component": "boolean",
+        "valueType": "boolean",
+        "name": "loop",
+        "label": "Infinite Loop"
+      }
+    ]
+  },
+  {
+    "id": "teaser",
+    "fields": [
+      {
+        "component": "multiselect",
+        "name": "classes",
+        "label": "Style",
+        "options": [
+          {
+            "name": "Text Left",
+            "value": "text-left"
+          }
+        ]
       },
       {
         "component": "boolean",
