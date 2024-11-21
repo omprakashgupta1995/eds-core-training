@@ -21,7 +21,7 @@
   },
   {
     "id": "carousel",
-    "components": ["teaser"]
+    "components": ["teaser", "carousel-item"]
   },
   {
     "id": "cards",
