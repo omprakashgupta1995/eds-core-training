@@ -1,0 +1,34 @@
+@import "./swiper.css";
+
+
+.teaser{
+    position: relative;
+    height:520px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.teaser p:nth-child(4){
+display: none;
+}
+
+.teaser p picture{
+    position: absolute;
+    bottom: 0;
+    max-width: 517px;
+    height: 432px;
+    right: 0;
+}
+.teaser p picture img{
+ height: 100%;
+ width: 100%;
+}
+@media screen and (max-width:768px){
+    .teaser p:nth-child(4){
+        display: block;
+     }
+    .teaser p:nth-child(3){
+            display: none;
+    }
+}
