@@ -253,6 +253,10 @@
         "label": "Title Type",
         "options": [
           {
+            "name": "span",
+            "value": "span"
+          },
+          {
             "name": "h1",
             "value": "h1"
           },
