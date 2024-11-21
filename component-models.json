@@ -186,6 +186,111 @@
     ]
   },
   {
+    "id": "carousel",
+    "fields": [
+      {
+        "component": "multiselect",
+        "name": "classes",
+        "label": "Style",
+        "options": [
+          {
+            "name": "Highlight",
+            "value": "highlight"
+          }
+        ]
+      },
+      {
+        "component": "number",
+        "valueType": "number",
+        "name": "carousel_timer",
+        "label": "Timer"
+      },
+      {
+        "component": "boolean",
+        "valueType": "boolean",
+        "name": "carousel_loop",
+        "label": "Infinite Loop"
+      }
+    ]
+  },
+  {
+    "id": "teaser",
+    "fields": [
+      {
+        "component": "multiselect",
+        "name": "classes",
+        "label": "Style",
+        "options": [
+          {
+            "name": "Text Left",
+            "value": "text-left"
+          }
+        ]
+      },
+      {
+        "component": "multiselect",
+        "name": "teaser_classes",
+        "label": "Background Style",
+        "options": [
+          {
+            "name": "Background Color",
+            "children": [
+              {
+                "name": "Red",
+                "value": "red"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "component": "reference",
+        "name": "teaser_deskimage",
+        "label": "Background Desktop Image"
+      },
+      {
+        "component": "text",
+        "name": "teaser_deskimageAlt",
+        "label": "Background Desktop Image Alt"
+      },
+      {
+        "component": "reference",
+        "name": "teaser_mobimage",
+        "label": "Background Mobile Image"
+      },
+      {
+        "component": "text",
+        "name": "teaser_mobimageAlt",
+        "label": "Background Mobile Image Alt"
+      },
+      {
+        "component": "richtext",
+        "name": "teasercol3_text",
+        "label": "Teaser Content"
+      },
+      {
+        "component": "reference",
+        "name": "teasercol3_deskimage",
+        "label": "Background Desktop Image"
+      },
+      {
+        "component": "text",
+        "name": "teasercol3_deskimageAlt",
+        "label": "Background Desktop Image Alt"
+      },
+      {
+        "component": "reference",
+        "name": "teasercol3_mobimage",
+        "label": "Background Mobile Image"
+      },
+      {
+        "component": "text",
+        "name": "teasercol3_mobimageAlt",
+        "label": "Background Mobile Image Alt"
+      }
+    ]
+  },
+  {
     "id": "quote",
     "fields": [
       {
@@ -201,9 +306,9 @@
     "id": "article",
     "fields": [
       {
-        "component" : "reference",
-        "name" : "articleImage",
-        "label" : "Article Image"
+        "component": "reference",
+        "name": "articleImage",
+        "label": "Article Image"
       },
       {
         "component": "text",

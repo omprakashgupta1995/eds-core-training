@@ -15,9 +15,14 @@
       "columns",
       "fragment",
       "quote",
+      "carousel",
       "article",
       "newsletter"
     ]
+  },
+  {
+    "id": "carousel",
+    "components": ["teaser"]
   },
   {
     "id": "cards",
