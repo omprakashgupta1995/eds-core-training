@@ -16,7 +16,8 @@
       "fragment",
       "quote",
       "carousel",
-      "article"
+      "article",
+      "newsletter"
     ]
   },
   {
@@ -36,3 +37,4 @@
     "components": ["text", "image", "button", "title"]
   }
 ]
+
