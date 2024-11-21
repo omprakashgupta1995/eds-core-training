@@ -374,6 +374,22 @@
     ]
   },
   {
+    "id": "accordian-container",
+    "fields": [
+      {
+        "component": "multiselect",
+        "name": "classes",
+        "label": "Style",
+        "options": [
+          {
+            "name": "Highlight",
+            "value": "highlight"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "id": "accordian",
     "fields": [
       {

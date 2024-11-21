@@ -17,7 +17,7 @@
       "quote",
       "carousel",
       "article",
-      "accordian",
+      "accordian-container",
       "newsletter"
     ]
   },
@@ -32,6 +32,10 @@
   {
     "id": "columns",
     "components": ["column"]
+  },
+  {
+    "id": "accordian-container",
+    "components": ["accordian"]
   },
   {
     "id": "column",
