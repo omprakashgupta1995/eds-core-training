@@ -17,7 +17,8 @@
       "quote",
       "carousel",
       "article",
-      "accordian"
+      "accordian",
+      "newsletter"
     ]
   },
   {
@@ -37,3 +38,4 @@
     "components": ["text", "image", "button", "title"]
   }
 ]
+
