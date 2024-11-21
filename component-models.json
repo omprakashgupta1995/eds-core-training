@@ -374,12 +374,12 @@
     "fields": [
       {
         "component": "reference",
-        "name": "articleImage",
+        "name": "article-image",
         "label": "Article Image"
       },
       {
         "component": "text",
-        "name": "articleTitle",
+        "name": "article-title",
         "label": "Article Title",
         "valueType": "string"
       }
