@@ -16,12 +16,14 @@
       "fragment",
       "quote",
       "carousel",
-      "article"
+      "article",
+      "accordian-container",
+      "newsletter"
     ]
   },
   {
     "id": "carousel",
-    "components": ["teaser"]
+    "components": ["teaser", "carousel-item"]
   },
   {
     "id": "cards",
@@ -32,7 +34,12 @@
     "components": ["column"]
   },
   {
+    "id": "accordian-container",
+    "components": ["accordian"]
+  },
+  {
     "id": "column",
     "components": ["text", "image", "button", "title"]
   }
 ]
+
