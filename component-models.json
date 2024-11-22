@@ -580,6 +580,11 @@
         "multi": false
       },
       {
+        "component": "text",
+        "name": "backgroundImageAlt",
+        "label": "Alt Text"
+      },
+      {
         "component": "richtext",
         "name": "banner_headdata",
         "value": "",

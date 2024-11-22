@@ -46,10 +46,6 @@
     "components": ["accordian"]
   },
   {
-    "id": "banner-456",
-    "components": ["image"]
-  },
-  {
     "id": "column",
     "components": ["text", "image", "button", "title"]
   }
