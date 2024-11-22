@@ -497,11 +497,17 @@
   },
   {
     "id": "Banner",
+
     "fields": [
       {
-        "component": "select",
+        "component": "text",
         "name": "title",
-        "label": "title",
+        "label": "title"
+      },
+      {
+        "component": "select",
+        "name": "titleType",
+        "label": "Title Type",
         "options": [
           {
             "name": "h1",
