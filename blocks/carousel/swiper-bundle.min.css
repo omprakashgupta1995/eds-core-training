@@ -252,7 +252,7 @@
 }
 
 .swiper-virtual .swiper-slide {
-    -webkit-backface-visibility: hidden;
+    visibility: hidden;
     transform: translateZ(0)
 }
 
