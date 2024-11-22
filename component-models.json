@@ -285,6 +285,57 @@
     ]
   },
   {
+    "id": "carousel-0642",
+    "fields": [
+      {
+        "component": "multiselect",
+        "name": "classes",
+        "label": "Style",
+        "options": [
+          {
+            "name": "Highlight",
+            "value": "highlight"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "carousel-item-0642",
+    "fields": [
+      {
+        "component": "multiselect",
+        "name": "classes",
+        "label": "Style",
+        "options": [
+          {
+            "name": "Only image",
+            "value": "only-image"
+          },
+          {
+            "name": "Plans carousel",
+            "value": "plans-carousel"
+          }
+        ]
+      },
+      {
+        "component": "reference",
+        "name": "image",
+        "label": "Image"
+      },
+      {
+        "component": "text",
+        "name": "imageAlt",
+        "label": "Image Alt"
+      },
+      {
+        "component": "richtext",
+        "name": "content",
+        "label": "Content"
+      }
+    ]
+  },
+  {
     "id": "teaser",
     "fields": [
       {
@@ -441,6 +492,65 @@
         "value": "",
         "label": "Description",
         "valueType": "string"
+      }
+    ]
+  },
+  {
+    "id": "Banner",
+
+    "fields": [
+      {
+        "component": "text",
+        "name": "title",
+        "label": "title"
+      },
+      {
+        "component": "select",
+        "name": "titleType",
+        "label": "Title Type",
+        "options": [
+          {
+            "name": "h1",
+            "value": "h1"
+          },
+          {
+            "name": "h2",
+            "value": "h2"
+          },
+          {
+            "name": "h3",
+            "value": "h3"
+          },
+          {
+            "name": "h4",
+            "value": "h4"
+          },
+          {
+            "name": "h5",
+            "value": "h5"
+          },
+          {
+            "name": "h6",
+            "value": "h6"
+          }
+        ]
+      },  
+      {
+        "component": "richtext",
+        "name": "text",
+        "value": "",
+        "label": "Text",
+        "valueType": "string"
+      },
+      {
+        "component": "reference",
+        "name": "img",
+        "label": "Banner Image"
+      },
+      {
+        "component": "text",
+        "name": "imgAlt",
+        "label": "Banner Image Alt"
       }
     ]
   },
