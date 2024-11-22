@@ -11,16 +11,23 @@
       "button",
       "title",
       "hero",
+      "teaser",
       "cards",
       "columns",
       "fragment",
       "quote",
       "carousel",
       "article",
+      "Banner",
       "accordian-container",
       "teaserv2",
-      "newsletter"
+      "newsletter",
+      "carousel-0642"
     ]
+  },
+  {
+    "id": "carousel-0642",
+    "components": ["carousel-item-0642"]
   },
   {
     "id": "carousel",
