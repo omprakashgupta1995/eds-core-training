@@ -449,8 +449,8 @@
     "fields": [
       {
         "component": "select",
-        "name": "titleType",
-        "label": "Title Type",
+        "name": "title",
+        "label": "title",
         "options": [
           {
             "name": "h1",
