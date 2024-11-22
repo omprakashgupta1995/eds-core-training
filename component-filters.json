@@ -11,6 +11,7 @@
       "button",
       "title",
       "hero",
+      "teaser",
       "cards",
       "columns",
       "fragment",
@@ -20,8 +21,13 @@
       "Banner",
       "accordian-container",
       "newsletter",
-      "talicbanner"
+      "talicbanner",
+      "carousel-0642"
     ]
+  },
+  {
+    "id": "carousel-0642",
+    "components": ["carousel-item-0642"]
   },
   {
     "id": "carousel",
