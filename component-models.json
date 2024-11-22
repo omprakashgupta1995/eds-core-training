@@ -575,7 +575,7 @@
     "fields": [
       {
         "component": "reference",
-        "name": "banner-BackgroundImage",
+        "name": "backgroundImage",
         "label": "Background Image",
         "multi": false
       },
