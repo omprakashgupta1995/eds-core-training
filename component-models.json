@@ -488,7 +488,14 @@
       {
         "component": "reference",
         "name": "img",
-        "label": "banner Image"
+        "label": "Banner Image"
+        
+
+      },
+      {
+        "component": "reference",
+        "name": "imgAlt",
+        "label": "Banner Image Alt"
       }
     ]
   },
