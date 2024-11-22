@@ -456,7 +456,7 @@
       {
         "component": "select",
         "name": "titleType",
-        "label": "TitleType",
+        "label": "Title Type",
         "options": [
           {
             "name": "h1",
