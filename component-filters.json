@@ -40,6 +40,10 @@
   {
     "id": "column",
     "components": ["text", "image", "button", "title"]
+  },
+  {
+    "id": "banner-carousel",
+    "components": ["title", "text", "image", "button"]
   }
 ]
 

@@ -479,6 +479,35 @@
         "valueType": "string"
       }
     ]
+  },
+  {
+    "id": "banner-carousel",
+    "fields": [
+      {
+        "component": "reference",
+        "valueType": "string",
+        "name": "banner-image",
+        "label": "Banner Image",
+        "multi": false
+      },
+      {
+        "component": "Title",
+        "name": "banner-title",
+        "label": "Banner Title",
+        "valueType": "string"
+      },
+      {
+        "component": "text",
+        "name": "banner-text",
+        "label": "Banner text",
+        "valueType": "string"
+      },
+      {
+        "component": "text",
+        "name": "linkText",
+        "label": "Text"
+      }
+    ]
   }
 ]
 
