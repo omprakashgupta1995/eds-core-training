@@ -503,9 +503,9 @@
         "valueType": "string"
       },
       {
-        "component": "text",
-        "name": "linkText",
-        "label": "Text"
+        "component": "Banner button",
+        "name": "banner-button",
+        "label": "Banner button"
       }
     ]
   }
