@@ -21,7 +21,7 @@
       "Banner",
       "accordian-container",
       "newsletter",
-      "talicbanner",
+      "banner-456",
       "carousel-0642"
     ]
   },
@@ -46,7 +46,7 @@
     "components": ["accordian"]
   },
   {
-    "id": "talicbanner",
+    "id": "banner-456",
     "components": ["image"]
   },
   {
