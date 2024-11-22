@@ -1,5 +1,4 @@
-@import './swiper.css'
-
+@import url('./swiper.css');
 
 .teaser{
     position: relative;
@@ -9,6 +8,7 @@
     background-size: cover;
 
 }
+
 .teaser p:nth-child(4){
      display: none;
 }
@@ -20,14 +20,17 @@
     height: 432px;
     right: 0;
 }
+
 .teaser p picture img{
     height: 100%;
     width: 100%;
 }
-@media screen and (max-width:768px){
+
+@media screen and ( width <= 768px ){
     .teaser p:nth-child(4){
         display: block;
      }
+
     .teaser p:nth-child(3){
             display: none;
     }

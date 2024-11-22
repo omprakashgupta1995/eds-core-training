@@ -18,7 +18,8 @@
       "carousel",
       "article",
       "accordian-container",
-      "newsletter"
+      "newsletter",
+      "talicbanner"
     ]
   },
   {
@@ -36,6 +37,10 @@
   {
     "id": "accordian-container",
     "components": ["accordian"]
+  },
+  {
+    "id": "talicbanner",
+    "components": ["image"]
   },
   {
     "id": "column",
