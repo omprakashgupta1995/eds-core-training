@@ -214,6 +214,77 @@
     ]
   },
   {
+    "id": "carousel-item",
+    "fields": [
+      {
+        "component": "multiselect",
+        "name": "classes",
+        "label": "Style",
+        "options": [
+          {
+            "name": "Highlight",
+            "value": "highlight"
+          }
+        ]
+      },
+      {
+        "component": "reference",
+        "name": "image",
+        "label": "Image"
+      },
+      {
+        "component": "text",
+        "name": "imageAlt",
+        "label": "Image Alt"
+      },
+      {
+        "component": "text",
+        "name": "teaserText_subtitle",
+        "label": "Subtitle"
+      },
+      {
+        "component": "text",
+        "name": "teaserText_title",
+        "label": "Title"
+      },
+      {
+        "component": "select",
+        "name": "teaserText_titleType",
+        "label": "Title Type",
+        "options": [
+          {
+            "name": "span",
+            "value": "span"
+          },
+          {
+            "name": "h1",
+            "value": "h1"
+          },
+          {
+            "name": "h2",
+            "value": "h2"
+          },
+          {
+            "name": "h3",
+            "value": "h3"
+          },
+          {
+            "name": "h4",
+            "value": "h4"
+          },
+          {
+            "name": "h5",
+            "value": "h5"
+          },
+          {
+            "name": "h6",
+            "value": "h6"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "id": "teaser",
     "fields": [
       {
@@ -303,19 +374,111 @@
     ]
   },
   {
+    "id": "accordian-container",
+    "fields": [
+      {
+        "component": "multiselect",
+        "name": "classes",
+        "label": "Style",
+        "options": [
+          {
+            "name": "Highlight",
+            "value": "highlight"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "accordian",
+    "fields": [
+      {
+        "component": "text",
+        "name": "accordianQuestion_title",
+        "label": "Title"
+      },
+      {
+        "component": "select",
+        "name": "accordianQuestion_titleType",
+        "label": "Title Type",
+        "options": [
+          {
+            "name": "h1",
+            "value": "h1"
+          },
+          {
+            "name": "h2",
+            "value": "h2"
+          },
+          {
+            "name": "h3",
+            "value": "h3"
+          },
+          {
+            "name": "h4",
+            "value": "h4"
+          },
+          {
+            "name": "h5",
+            "value": "h5"
+          },
+          {
+            "name": "h6",
+            "value": "h6"
+          }
+        ]
+      },
+      {
+        "component": "richtext",
+        "name": "accordianQuestion_icon",
+        "value": "",
+        "label": "Arrow icon",
+        "valueType": "string"
+      },
+      {
+        "component": "richtext",
+        "name": "accordianDescription",
+        "value": "",
+        "label": "Description",
+        "valueType": "string"
+      }
+    ]
+  },
+  {
     "id": "article",
     "fields": [
       {
         "component": "reference",
-        "name": "articleImage",
+        "name": "article-image",
         "label": "Article Image"
       },
       {
         "component": "text",
-        "name": "articleTitle",
+        "name": "article-title",
         "label": "Article Title",
+        "valueType": "string"
+      }
+    ]
+  },
+  {
+    "id": "newsletter",
+    "fields": [
+      {
+        "component": "reference",
+        "valueType": "string",
+        "name": "image",
+        "label": "Image",
+        "multi": false
+      },
+    
+      {
+        "component": "richtext",
+        "name": "text",
+        "value": "",
+        "label": "Text",
         "valueType": "string"
       }
     ]
   }
 ]
+
