@@ -328,15 +328,15 @@
           }
         },
         {
-          "title": "Teaser version 2",
-          "id": "teaserv2",
+          "title": "Teaser 451",
+          "id": "teaser-451",
           "plugins": {
             "xwalk": {
               "page": {
                 "resourceType": "core/franklin/components/block/v1/block/item",
                 "template": {
-                  "name": "Teaser version 2",
-                  "model": "teaserv2"
+                  "name": "Teaser 451",
+                  "model": "teaser-451"
                 }
               }
             }
