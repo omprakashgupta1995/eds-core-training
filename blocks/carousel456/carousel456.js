@@ -12,20 +12,17 @@ export default function decorate(block) {
 
               <div class="swiper-wrapper">
 
-      ${Array.from(block.children).map((rowEle, index) => {
-    if (index !== 0) {
-      rowEle.firstElementChild.remove();
+      ${Array.from(block.children).slice(1).map((rowEle) => {
+    rowEle.firstElementChild.remove();
 
-      const firstDiv = rowEle.querySelector('div:nth-child(1)');
-      const pictureElements = firstDiv ? firstDiv.querySelectorAll('picture') : '';
+    const firstDiv = rowEle.querySelector('div:nth-child(1)');
+    const pictureElements = firstDiv ? firstDiv.querySelectorAll('picture') : '';
 
-      const desktopImgSrc = pictureElements[0]?.querySelector('img')?.src || 'none';
-      const mobileImgSrc = pictureElements[1]?.querySelector('img')?.src || 'none';
-      rowEle.firstElementChild.remove();
-
-      return `<div class= "swiper-slide ${classes.join(' ')}" style="background-image: url('${desktopImgSrc}');"
-                                    data-mobile-bg="${mobileImgSrc}" data-desktop-bg="${desktopImgSrc}"> ${rowEle.innerHTML}</div> `;
-    }
+    const desktopImgSrc = pictureElements[0]?.querySelector('img')?.src || 'none';
+    const mobileImgSrc = pictureElements[1]?.querySelector('img')?.src || 'none';
+    rowEle.firstElementChild.remove();
+    return `<div class= "swiper-slide ${classes.join(' ')}" style="background-image: url('${desktopImgSrc}');"
+              data-mobile-bg="${mobileImgSrc}" data-desktop-bg="${desktopImgSrc}"> ${rowEle.innerHTML}</div> `;
   }).join(' ')
 }
                 
@@ -42,7 +39,7 @@ export default function decorate(block) {
               
 
         `;
-  const swiper = new Swiper('.swiper', {
+  Swiper('.swiper', {
 
     loop: true,
 

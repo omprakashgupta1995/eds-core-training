@@ -15,4 +15,6 @@ var Swiper=function(){"use strict";function e(e){return null!==e&&"object"==type
 //# sourceMappingURL=swiper-bundle.min.js.map
 
 
-export default Swiper;
+export default function (config) {
+    new Swiper(config)
+};
