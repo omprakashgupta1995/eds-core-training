@@ -497,7 +497,6 @@
   },
   {
     "id": "Banner",
-
     "fields": [
       {
         "component": "text",
@@ -534,7 +533,7 @@
             "value": "h6"
           }
         ]
-      },  
+      },
       {
         "component": "richtext",
         "name": "text",
@@ -610,7 +609,6 @@
         "label": "Image",
         "multi": false
       },
-    
       {
         "component": "richtext",
         "name": "text",
@@ -619,6 +617,40 @@
         "valueType": "string"
       }
     ]
+  },
+  {
+    "id": "carousel-276",
+    "fields": [    ]
+  },
+  {
+    "id": "embed-276",
+    "fields": [
+      {
+        "component": "multiselect",
+        "name": "classes",
+        "label": "Style",
+        "options": [
+          {
+            "name": "Embed",
+            "value": "embed"
+          }
+        ]
+      },
+      {
+        "component": "reference",
+        "name": "thumbnail",
+        "label": "Select Thumbnail"
+      },
+      {
+        "component": "text",
+        "name": "thumbnailAlt",
+        "label": "Alt"
+      },
+      {
+        "component": "text",
+        "name": "thumbnail-url",
+        "label": "Enter url"
+      }
+    ]
   }
 ]
-
