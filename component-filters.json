@@ -75,14 +75,5 @@
       "button",
       "title"
     ]
-  },
-  {
-    "id": "banner-carousel",
-    "components": [
-      "title",
-      "text",
-      "image",
-      "button"
-    ]
   }
 ]
