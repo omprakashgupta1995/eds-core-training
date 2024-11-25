@@ -639,23 +639,7 @@
     ]
   },
   {
-    "id": "carousel-item-276",
-    "fields": [
-      {
-        "component": "multiselect",
-        "name": "classes",
-        "label": "Style",
-        "options": [
-          {
-            "name": "Highlight",
-            "value": "highlight"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": "embed",
+    "id": "embed-276",
     "fields": [
       {
         "component": "multiselect",
@@ -682,27 +666,6 @@
         "component": "text",
         "name": "thumbnail-url",
         "label": "Enter url"
-      }
-    ]
-  },
-  {
-    "id": "carousel-item2-276",
-    "fields": [
-      {
-        "component": "multiselect",
-        "name": "classes",
-        "label": "Style",
-        "options": [
-          {
-            "name": "Embed",
-            "value": "embed"
-          }
-        ]
-      },
-      {
-        "component": "text",
-        "name": "classes",
-        "label": "Style"
       }
     ]
   }
