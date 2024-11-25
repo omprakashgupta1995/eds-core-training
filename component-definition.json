@@ -344,21 +344,6 @@
           }
         },
         {
-          "title": "Carousel item2 276 ",
-          "id": "carousel-item2-276",
-          "plugins": {
-            "xwalk": {
-              "page": {
-                "resourceType": "core/franklin/components/block/v1/block/item",
-                "template": {
-                  "name": "Carousel item2 276",
-                  "model": "carousel-item2-276"
-                }
-              }
-            }
-          }
-        },
-        {
           "title": "Embed 276",
           "id": "embed-276",
           "plugins": {

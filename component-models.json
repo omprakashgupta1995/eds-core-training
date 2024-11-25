@@ -620,7 +620,28 @@
   },
   {
     "id": "carousel-276",
-    "fields": [    ]
+    "fields": []
+  },
+  {
+    "id": "carousel-item-276",
+    "fields": [
+      {
+        "component": "reference",
+        "name": "backgroundImage",
+        "label": "Background Image",
+        "multi": false
+      },
+      {
+        "component": "text",
+        "name": "text",
+        "label": "Text"
+      },
+      {
+        "component": "title",
+        "name": "title",
+        "label": "Title"
+      }
+    ]
   },
   {
     "id": "embed-276",
