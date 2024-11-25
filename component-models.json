@@ -570,6 +570,36 @@
     ]
   },
   {
+    "id": "banner-456",
+    "fields": [
+      {
+        "component": "reference",
+        "name": "backgroundImage",
+        "label": "Background Image",
+        "multi": false
+      },
+      {
+        "component": "text",
+        "name": "backgroundImageAlt",
+        "label": "Alt Text"
+      },
+      {
+        "component": "richtext",
+        "name": "banner_headdata",
+        "value": "",
+        "label": "Heading Data",
+        "valueType": "string"
+      },
+      {
+        "component": "richtext",
+        "name": "banner_bottomdata",
+        "value": "",
+        "label": "Other data",
+        "valueType": "string"
+      }
+    ]
+  },
+  {
     "id": "newsletter",
     "fields": [
       {
