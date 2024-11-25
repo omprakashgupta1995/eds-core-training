@@ -620,23 +620,7 @@
   },
   {
     "id": "carousel-276",
-    "fields": [
-      {
-        "component": "multiselect",
-        "name": "classes",
-        "label": "Style",
-        "options": [
-          {
-            "name": "Highlight",
-            "value": "highlight"
-          }
-        ]
-      },
-      {
-        "component": "text",
-        "name": ""
-      }
-    ]
+    "fields": [    ]
   },
   {
     "id": "embed-276",
