@@ -1,7 +1,9 @@
 [
   {
     "id": "main",
-    "components": ["section"]
+    "components": [
+      "section"
+    ]
   },
   {
     "id": "section",
@@ -28,35 +30,59 @@
   },
   {
     "id": "carousel-276",
-    "components":["carousel-item-276", "carousel-item2-276", "embed"]
+    "components": [
+      "carousel-item-276",
+      "carousel-item2-276",
+      "embed"
+    ]
   },
   {
     "id": "carousel-0642",
-    "components": ["carousel-item-0642"]
+    "components": [
+      "carousel-item-0642"
+    ]
   },
   {
     "id": "carousel",
-    "components": ["teaser", "carousel-item"]
+    "components": [
+      "teaser",
+      "carousel-item"
+    ]
   },
   {
     "id": "cards",
-    "components": ["card"]
+    "components": [
+      "card"
+    ]
   },
   {
     "id": "columns",
-    "components": ["column"]
+    "components": [
+      "column"
+    ]
   },
   {
     "id": "accordian-container",
-    "components": ["accordian"]
+    "components": [
+      "accordian"
+    ]
   },
   {
     "id": "column",
-    "components": ["text", "image", "button", "title"]
+    "components": [
+      "text",
+      "image",
+      "button",
+      "title"
+    ]
   },
   {
     "id": "banner-carousel",
-    "components": ["title", "text", "image", "button"]
+    "components": [
+      "title",
+      "text",
+      "image",
+      "button"
+    ]
   }
 ]
-

@@ -680,10 +680,6 @@
             "value": "highlight"
           }
         ]
-      },
-      {
-        "component": "text",
-        "name": ""
       }
     ]
   },
