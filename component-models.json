@@ -574,14 +574,23 @@
     "fields": [
       {
         "component": "reference",
-        "name": "backgroundImage",
-        "label": "Background Image",
-        "multi": false
+        "name": "col1_backgroundImage",
+        "label": "Desktop Background Image"
       },
       {
         "component": "text",
-        "name": "backgroundImageAlt",
-        "label": "Alt Text"
+        "name": "col1_backgroundImageAlt",
+        "label": "Desktop Alt Text"
+      },
+      {
+        "component": "reference",
+        "name": "col1_mobileBackgroundImage",
+        "label": "Mobile Background Image"
+      },
+      {
+        "component": "text",
+        "name": "col1_mobileBackgroundImageAlt",
+        "label": "Mobile Alt text"
       },
       {
         "component": "richtext",
@@ -615,6 +624,45 @@
         "value": "",
         "label": "Text",
         "valueType": "string"
+      }
+    ]
+  },
+  {
+    "id": "teaser-451",
+    "fields": [
+      {
+        "component" : "multiselect",
+        "name" : "classes",
+        "label" : "Teaser Style",
+        "options" : [
+          {
+            "name" : "hero teaser",
+            "value" : "teaser-hero"
+          },
+          {
+            "name" : "product listing teaser",
+            "value" : "teaser-product-listing"
+          }
+        ]
+      },
+      {
+        "component": "reference",
+        "valueType": "string",
+        "name": "image",
+        "label": "Image",
+        "multi": false
+      },
+      {
+        "component": "text",
+        "valueType": "string",
+        "name" : "imageAlt",
+        "label" : "Image Alt"
+      },
+      {
+        "component": "richtext",
+        "valueType": "string",
+        "name" : "teatercontent",
+        "label" : "Teaser content"
       }
     ]
   },
@@ -670,6 +718,57 @@
         "component": "text",
         "name": "thumbnail-url",
         "label": "Enter url"
+      }
+    ]
+  },
+  {
+    "id": "carousel-401",
+    "fields": [
+      {
+        "component": "multiselect",
+        "name": "classes",
+        "label": "Style",
+        "options": [
+          {
+            "name": "main-carousel",
+            "value": "main-carousel"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "carousel-item-401",
+    "fields": [
+      {
+        "component": "multiselect",
+        "name": "classes",
+        "label": "Style",
+        "options": [
+          {
+            "name": "Only image",
+            "value": "only-image"
+          },
+          {
+            "name": "Plans carousel",
+            "value": "plans-carousel"
+          }
+        ]
+      },
+      {
+        "component": "reference",
+        "name": "image",
+        "label": "Image"
+      },
+      {
+        "component": "text",
+        "name": "imageAlt",
+        "label": "Image Alt"
+      },
+      {
+        "component": "richtext",
+        "name": "content",
+        "label": "Content"
       }
     ]
   }
