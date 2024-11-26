@@ -652,5 +652,61 @@
         "label": "Enter url"
       }
     ]
+  },
+  {
+    "id": "carousel-401",
+    "fields": [
+      {
+        "component": "multiselect",
+        "name": "classes",
+        "label": "Style",
+        "options": [
+          {
+            "name": "main-carousel",
+            "value": "main-carousel"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "carousel-item-401",
+    "fields": [
+      {
+        "component": "multiselect",
+        "name": "classes",
+        "label": "Style",
+        "options": [
+          {
+            "name": "Only image",
+            "value": "only-image"
+          },
+          {
+            "name": "Plans carousel",
+            "value": "plans-carousel"
+          }
+        ]
+      },
+      {
+        "component": "reference",
+        "name": "image",
+        "label": "Image"
+      },
+      {
+        "component": "text",
+        "name": "imageAlt",
+        "label": "Image Alt"
+      },
+      {
+        "component": "richtext",
+        "name": "content",
+        "label": "Content"
+      },
+      {
+        "component":"button",
+        "name":"button",
+        "label":"button text"
+      }
+    ]
   }
 ]
