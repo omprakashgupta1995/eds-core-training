@@ -701,11 +701,6 @@
         "component": "richtext",
         "name": "content",
         "label": "Content"
-      },
-      {
-        "component":"button",
-        "name":"button",
-        "label":"button text"
       }
     ]
   }
