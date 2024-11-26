@@ -577,7 +577,7 @@
         "component": "reference",
         "name": "backgroundImage",
         "label": "Background Image",
-        "multi": false
+        "multi": true
       },
       {
         "component": "text",
