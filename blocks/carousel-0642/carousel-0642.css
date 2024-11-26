@@ -1,0 +1,38 @@
+@import url('./swiper-bundle.min.css');
+
+main > .section > div.carousel-0642-wrapper {
+    max-width: 100%;
+    padding: 0;
+    position: relative;
+}
+
+.carousel-0642 {
+    overflow-x: hidden;
+}
+
+.carousel-0642 .swiper-pagination {
+    width: auto;
+    left: 94%;
+    top: 50%;
+    bottom: unset;
+    transform: rotate(90deg);
+}
+
+.carousel-0642 .swiper-pagination-bullet {
+    border: 2px solid #005e9e;
+    background: #fff;
+    opacity: 1;
+}
+
+.carousel-0642 .swiper-pagination-bullet-active {
+    background: #005e9e;
+}
+
+@media screen and (width <= 768px) {
+    .carousel-0642 .swiper-pagination {
+        left: 48%;
+        top: unset;
+        bottom: 10px;
+        transform: rotate(0deg);
+    }
+}
