@@ -577,7 +577,8 @@
         "component": "reference",
         "name": "backgroundImage",
         "label": "Background Image",
-        "multi": true
+        "multi": true,
+        "valueType": "string[]"
       },
       {
         "component": "text",
