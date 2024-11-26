@@ -575,22 +575,22 @@
     "fields": [
       {
         "component": "reference",
-        "name": "banner_backgroundImage",
+        "name": "col1_backgroundImage",
         "label": "Desktop Background Image"
       },
       {
         "component": "text",
-        "name": "banner_backgroundImageAlt",
+        "name": "col1_backgroundImageAlt",
         "label": "Desktop Alt Text"
       },
       {
         "component": "reference",
-        "name": "banner_mobileBackgroundImage",
+        "name": "col1_mobileBackgroundImage",
         "label": "Mobile Background Image"
       },
       {
         "component": "text",
-        "name": "banner_mobileBackgroundImageAlt",
+        "name": "col1_mobileBackgroundImageAlt",
         "label": "Mobile Alt text"
       },
       {
