@@ -499,9 +499,14 @@
     "id": "Banner",
     "fields": [
       {
-        "component": "select",
+        "component": "text",
         "name": "title",
-        "label": "title",
+        "label": "title"
+      },
+      {
+        "component": "select",
+        "name": "titleType",
+        "label": "Title Type",
         "options": [
           {
             "name": "h1",
@@ -528,7 +533,7 @@
             "value": "h6"
           }
         ]
-      },  
+      },
       {
         "component": "richtext",
         "name": "text",
@@ -565,6 +570,36 @@
     ]
   },
   {
+    "id": "banner-456",
+    "fields": [
+      {
+        "component": "reference",
+        "name": "backgroundImage",
+        "label": "Background Image",
+        "multi": false
+      },
+      {
+        "component": "text",
+        "name": "backgroundImageAlt",
+        "label": "Alt Text"
+      },
+      {
+        "component": "richtext",
+        "name": "banner_headdata",
+        "value": "",
+        "label": "Heading Data",
+        "valueType": "string"
+      },
+      {
+        "component": "richtext",
+        "name": "banner_bottomdata",
+        "value": "",
+        "label": "Other data",
+        "valueType": "string"
+      }
+    ]
+  },
+  {
     "id": "newsletter",
     "fields": [
       {
@@ -574,7 +609,6 @@
         "label": "Image",
         "multi": false
       },
-    
       {
         "component": "richtext",
         "name": "text",
@@ -627,6 +661,60 @@
         "label" : "CTA text"
       }
     ]
+  },
+  {
+    "id": "carousel-276",
+    "fields": []
+  },
+  {
+    "id": "carousel-item-276",
+    "fields": [
+      {
+        "component": "reference",
+        "name": "backgroundimage",
+        "label": "Background Image"      
+      },
+      {
+        "component": "text",
+        "name": "backgroundimageAlt",
+        "label": "Background Image Alt"
+      },
+      {
+        "component": "richtext",
+        "name": "text",
+        "label": "Text"
+      }
+    ]
+  },
+  {
+    "id": "embed-276",
+    "fields": [
+      {
+        "component": "multiselect",
+        "name": "classes",
+        "label": "Style",
+        "options": [
+          {
+            "name": "Embed",
+            "value": "embed"
+          }
+        ]
+      },
+      {
+        "component": "reference",
+        "name": "thumbnail",
+        "label": "Select Thumbnail"
+      },
+      {
+        "component": "text",
+        "name": "thumbnailAlt",
+        "label": "Alt"
+      },
+      {
+        "component": "text",
+        "name": "thumbnail-url",
+        "label": "Enter url"
+      }
+    ]
   }
 ]
-
