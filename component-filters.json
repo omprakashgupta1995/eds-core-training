@@ -25,7 +25,8 @@
       "newsletter",
       "carousel-276",
       "banner-456",
-      "carousel-0642"
+      "carousel-0642",
+      "carousel-221"
     ]
   },
   {
@@ -73,6 +74,12 @@
       "image",
       "button",
       "title"
+    ]
+  },
+  {
+    "id": "carousel-221",
+    "components": [
+      "carousel-item-221"
     ]
   }
 ]
