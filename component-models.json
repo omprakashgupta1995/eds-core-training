@@ -637,11 +637,6 @@
         ]
       },
       {
-        "component": "text",
-        "name": "text",
-        "label": "Title"
-      },
-      {
         "component": "reference",
         "valueType": "string",
         "name": "image",
@@ -657,8 +652,8 @@
       {
         "component": "richtext",
         "valueType": "string",
-        "name" : "ctatext",
-        "label" : "CTA text"
+        "name" : "teatercontent",
+        "label" : "Teaser content"
       }
     ]
   },
