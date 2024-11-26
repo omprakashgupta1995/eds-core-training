@@ -619,6 +619,35 @@
     ]
   },
   {
+    "id": "hero-carousel-451",
+    "fields": [
+      {
+        "component" : "multiselect",
+        "name" : "classes",
+        "label" : "Hero Carousel Styles",
+        "options" : [
+          {
+            "name" : "full height",
+            "value" : "hero-carousel-full-height"
+          }
+        ]
+      },
+      {
+        "component": "boolean",
+        "valueType": "boolean",
+        "name": "isloop",
+        "label": "Enable Infinite Loop"
+      },
+      {
+        "component": "number",
+        "valueType": "number",
+        "value" : 1,
+        "name" : "slideDuration",
+        "label" : "Slide Duration"
+      }
+    ]
+  },
+  {
     "id": "teaser-451",
     "fields": [
       {
