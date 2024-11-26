@@ -574,15 +574,23 @@
     "fields": [
       {
         "component": "reference",
-        "name": "backgroundImage",
-        "label": "Background Image",
-        "multi": true,
-        "valueType": "string[]"
+        "name": "banner_backgroundImage",
+        "label": "Desktop Background Image"
       },
       {
         "component": "text",
-        "name": "backgroundImageAlt",
-        "label": "Alt Text"
+        "name": "banner_backgroundImageAlt",
+        "label": "Desktop Alt Text"
+      },
+      {
+        "component": "reference",
+        "name": "banner_mobileBackgroundImage",
+        "label": "Mobile Background Image"
+      },
+      {
+        "component": "text",
+        "name": "banner_mobileBackgroundImageAlt",
+        "label": "Mobile Alt text"
       },
       {
         "component": "richtext",
