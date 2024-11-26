@@ -627,19 +627,18 @@
     "fields": [
       {
         "component": "reference",
-        "name": "backgroundImage",
-        "label": "Background Image",
-        "multi": false
+        "name": "backgroundimage",
+        "label": "Background Image"      
       },
       {
         "component": "text",
-        "name": "text",
-        "label": "Text"
+        "name": "backgroundimageAlt",
+        "label": "Background Image Alt"
       },
       {
-        "component": "title",
-        "name": "title",
-        "label": "Title"
+        "component": "richtext",
+        "name": "text",
+        "label": "Text"
       }
     ]
   },
