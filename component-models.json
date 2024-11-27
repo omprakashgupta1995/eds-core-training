@@ -337,11 +337,6 @@
         "label": "Image Alt"
       },
       {
-        "component": "text",
-        "name": "redirection",
-        "label": "Enter redirection link"
-      },
-      {
         "component": "richtext",
         "name": "content",
         "label": "Content"
