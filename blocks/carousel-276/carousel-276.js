@@ -1,4 +1,4 @@
-import Swiper from '../carousel-276/swiper.js';
+import Swiper from './swiper.js';
 
 export default function decorate(block) {
     const cols = [...block.firstElementChild.children];
@@ -37,15 +37,18 @@ export default function decorate(block) {
     block.appendChild(pagination);
     Swiper(block, {
         loop: true,
-        autoplay: {
-            delay: 3000,
-            disableOnInteraction: false,
-        },
+        // autoplay: {
+        //     delay: 3000,
+        //     disableOnInteraction: false,
+        // },
         pagination: {
             el: '.swiper-pagination',
             clickable: true,
         },
     });
+
+    // JavaScript file: swiper.js
+  
 }
 
 
