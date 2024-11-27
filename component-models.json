@@ -813,5 +813,40 @@
         "label": "Content"
       }
     ]
+  },
+  {
+    "id": "carousel-221",
+    "fields": [{
+      "component": "multiselect",
+      "name": "classes",
+      "label": "Style",
+      "options": [
+        {
+          "name": "Hero Banner Carousel",
+          "value": "hero-banner-carousel"
+        }
+      ]
+    }
+  ]
+  },
+  {
+    "id": "carousel-item-221",
+    "fields": [
+      {
+        "component": "reference",
+        "name": "backgroundimage",
+        "label": "Background Image"      
+      },
+      {
+        "component": "text",
+        "name": "backgroundimageAlt",
+        "label": "Background Image Alt"
+      },
+      {
+        "component": "text",
+        "name": "thumbnail-url",
+        "label": "Enter url"
+      }
+    ]
   }
 ]
