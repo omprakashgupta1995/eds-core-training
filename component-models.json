@@ -779,6 +779,82 @@
       }
     ]
   },
+
+  {
+    "id": "banner-146",
+    "fields": []
+  },
+  {
+    "id": "banner-left-146",
+    "fields": [
+      {
+        "component": "multiselect",
+        "name": "classes",
+        "label": "Style",
+        "options": [
+          {
+            "name": "Only image",
+            "value": "only-image"
+          },
+          {
+            "name": "Plans carousel",
+            "value": "plans-carousel"
+          }
+        ]
+      },
+      {
+        "component": "reference",
+        "name": "imageDesk",
+        "label": "Image"
+      },
+      
+      {
+        "component": "text",
+        "name": "imageAlt",
+        "label": "Image Alt"
+      },
+      {
+        "component": "richtext",
+        "name": "content",
+        "label": "Content"
+      }
+    ]
+  },
+  {
+    "id": "banner-right-146",
+    "fields": [
+      {
+        "component": "multiselect",
+        "name": "classes",
+        "label": "Style",
+        "options": [
+          {
+            "name": "Only image",
+            "value": "only-image"
+          },
+          {
+            "name": "Plans carousel",
+            "value": "plans-carousel"
+          }
+        ]
+      },
+      {
+        "component": "reference",
+        "name": "imageDesk",
+        "label": "Image"
+      },
+      {
+        "component": "reference",
+        "name": "imageMob",
+        "label": "Image"
+      },
+      {
+        "component": "richtext",
+        "name": "content",
+        "label": "Content"
+      }
+    ]
+  },
   {
     "id": "carousel-item-401",
     "fields": [

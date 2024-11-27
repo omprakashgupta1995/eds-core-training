@@ -437,6 +437,52 @@
           }
         },
         {
+          "title": "banner 146",
+          "id": "banner-146",
+          "plugins": {
+            "xwalk": {
+              "page": {
+                "resourceType": "core/franklin/components/block/v1/block",
+                "template": {
+                  "name": "banner 146",
+                  "model": "banner-146",
+                  "filter": "banner-146"
+                }
+              }
+            }
+          }
+        },
+        {
+          "title": "banner left 146",
+          "id": "banner-left-146",
+          "plugins": {
+            "xwalk": {
+              "page": {
+                "resourceType": "core/franklin/components/block/v1/block",
+                "template": {
+                  "name": "banner left 146",
+                  "model": "banner-left-146"
+                }
+              }
+            }
+          }
+        },
+        {
+          "title": "banner right 146",
+          "id": "banner-right-146",
+          "plugins": {
+            "xwalk": {
+              "page": {
+                "resourceType": "core/franklin/components/block/v1/block",
+                "template": {
+                  "name": "banner right 146",
+                  "model": "banner-right-146"
+                }
+              }
+            }
+          }
+        },
+        {
           "title": "Teaser 451",
           "id": "teaser-451",
           "plugins": {

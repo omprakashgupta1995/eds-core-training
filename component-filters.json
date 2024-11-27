@@ -28,7 +28,15 @@
       "carousel-276",
       "banner-456",
       "carousel-0642",
-      "carousel-401"
+      "carousel-401",
+      "banner-146"
+    ]
+  },
+  {
+    "id": "banner-146",
+    "components": [
+      "banner-left-146",
+      "banner-right-146"
     ]
   },
   {
