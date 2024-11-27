@@ -429,7 +429,8 @@
                 "resourceType": "core/franklin/components/block/v1/block",
                 "template": {
                   "name": "Hero Carousel 451",
-                  "model": "hero-carousel-451"
+                  "model": "hero-carousel-451",
+                  "filter" : "hero-carousel-451"
                 }
               }
             }
@@ -441,7 +442,7 @@
           "plugins": {
             "xwalk": {
               "page": {
-                "resourceType": "core/franklin/components/block/v1/block/item",
+                "resourceType": "core/franklin/components/block/v1/block",
                 "template": {
                   "name": "Teaser 451",
                   "model": "teaser-451"
