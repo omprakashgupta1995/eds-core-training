@@ -325,21 +325,6 @@
             "value": "plans-carousel-slide"
           }
         ]
-      },
-      {
-        "component": "reference",
-        "name": "image",
-        "label": "Image"
-      },
-      {
-        "component": "text",
-        "name": "imageAlt",
-        "label": "Image Alt"
-      },
-      {
-        "component": "richtext",
-        "name": "content",
-        "label": "Content"
       }
     ]
   },
