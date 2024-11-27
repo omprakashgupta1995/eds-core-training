@@ -1,9 +1,7 @@
 [
   {
     "id": "main",
-    "components": [
-      "section"
-    ]
+    "components": ["section"]
   },
   {
     "id": "section",
@@ -28,66 +26,44 @@
       "carousel-276",
       "banner-456",
       "carousel-0642",
+      "fg-banner-carousel",
       "carousel-401"
     ]
   },
   {
     "id": "hero-carousel-451",
-    "components": [
-      "teaser-451"
-    ]
+    "components": ["teaser-451"]
   },
   {
     "id": "carousel-276",
-    "components": [
-      "carousel-item-276",
-      "embed-276"
-    ]
+    "components": ["carousel-item-276", "embed-276"]
   },
   {
     "id": "carousel-401",
-    "components": [
-      "carousel-item-401"
-    ]
+    "components": ["carousel-item-401"]
   },
   {
     "id": "carousel-0642",
-    "components": [
-      "carousel-item-0642"
-    ]
+    "components": ["carousel-item-0642"]
   },
   {
     "id": "carousel",
-    "components": [
-      "teaser",
-      "carousel-item"
-    ]
+    "components": ["teaser", "carousel-item"]
   },
   {
     "id": "cards",
-    "components": [
-      "card"
-    ]
+    "components": ["card"]
   },
   {
     "id": "columns",
-    "components": [
-      "column"
-    ]
+    "components": ["column"]
   },
   {
     "id": "accordian-container",
-    "components": [
-      "accordian"
-    ]
+    "components": ["accordian"]
   },
   {
     "id": "column",
-    "components": [
-      "text",
-      "image",
-      "button",
-      "title"
-    ]
+    "components": ["text", "image", "button", "title"]
   }
 ]

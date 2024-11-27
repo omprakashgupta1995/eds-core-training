@@ -190,6 +190,22 @@
     ]
   },
   {
+    "id": "fg-banner-carousel",
+    "fields": [
+      {
+        "component": "multiselect",
+        "name": "classes",
+        "label": "Style",
+        "options": [
+          {
+            "name": "Highlight",
+            "value": "highlight"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "id": "carousel",
     "fields": [
       {
@@ -624,13 +640,13 @@
     "id": "hero-carousel-451",
     "fields": [
       {
-        "component" : "multiselect",
-        "name" : "classes",
-        "label" : "Hero Carousel Styles",
-        "options" : [
+        "component": "multiselect",
+        "name": "classes",
+        "label": "Hero Carousel Styles",
+        "options": [
           {
-            "name" : "full height",
-            "value" : "hero-carousel-full-height"
+            "name": "full height",
+            "value": "hero-carousel-full-height"
           }
         ]
       },
@@ -643,9 +659,9 @@
       {
         "component": "number",
         "valueType": "number",
-        "value" : 1,
-        "name" : "slideDuration",
-        "label" : "Slide Duration"
+        "value": 1,
+        "name": "slideDuration",
+        "label": "Slide Duration"
       }
     ]
   },
@@ -653,17 +669,17 @@
     "id": "teaser-451",
     "fields": [
       {
-        "component" : "multiselect",
-        "name" : "classes",
-        "label" : "Teaser Style",
-        "options" : [
+        "component": "multiselect",
+        "name": "classes",
+        "label": "Teaser Style",
+        "options": [
           {
-            "name" : "hero teaser",
-            "value" : "teaser-hero"
+            "name": "hero teaser",
+            "value": "teaser-hero"
           },
           {
-            "name" : "product listing teaser",
-            "value" : "teaser-product-listing"
+            "name": "product listing teaser",
+            "value": "teaser-product-listing"
           }
         ]
       },
@@ -677,14 +693,14 @@
       {
         "component": "text",
         "valueType": "string",
-        "name" : "imageAlt",
-        "label" : "Image Alt"
+        "name": "imageAlt",
+        "label": "Image Alt"
       },
       {
         "component": "richtext",
         "valueType": "string",
-        "name" : "teatercontent",
-        "label" : "Teaser content"
+        "name": "teatercontent",
+        "label": "Teaser content"
       }
     ]
   },
@@ -698,7 +714,7 @@
       {
         "component": "reference",
         "name": "backgroundimage",
-        "label": "Background Image"      
+        "label": "Background Image"
       },
       {
         "component": "text",
