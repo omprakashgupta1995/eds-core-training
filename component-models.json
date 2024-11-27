@@ -587,14 +587,23 @@
     "fields": [
       {
         "component": "reference",
-        "name": "backgroundImage",
-        "label": "Background Image",
-        "multi": false
+        "name": "col1_backgroundImage",
+        "label": "Desktop Background Image"
       },
       {
         "component": "text",
-        "name": "backgroundImageAlt",
-        "label": "Alt Text"
+        "name": "col1_backgroundImageAlt",
+        "label": "Desktop Alt Text"
+      },
+      {
+        "component": "reference",
+        "name": "col1_mobileBackgroundImage",
+        "label": "Mobile Background Image"
+      },
+      {
+        "component": "text",
+        "name": "col1_mobileBackgroundImageAlt",
+        "label": "Mobile Alt text"
       },
       {
         "component": "richtext",
@@ -628,6 +637,74 @@
         "value": "",
         "label": "Text",
         "valueType": "string"
+      }
+    ]
+  },
+  {
+    "id": "hero-carousel-451",
+    "fields": [
+      {
+        "component" : "multiselect",
+        "name" : "classes",
+        "label" : "Hero Carousel Styles",
+        "options" : [
+          {
+            "name" : "full height",
+            "value" : "hero-carousel-full-height"
+          }
+        ]
+      },
+      {
+        "component": "boolean",
+        "valueType": "boolean",
+        "name": "isloop",
+        "label": "Enable Infinite Loop"
+      },
+      {
+        "component": "number",
+        "valueType": "number",
+        "value" : 1,
+        "name" : "slideDuration",
+        "label" : "Slide Duration"
+      }
+    ]
+  },
+  {
+    "id": "teaser-451",
+    "fields": [
+      {
+        "component" : "multiselect",
+        "name" : "classes",
+        "label" : "Teaser Style",
+        "options" : [
+          {
+            "name" : "hero teaser",
+            "value" : "teaser-hero"
+          },
+          {
+            "name" : "product listing teaser",
+            "value" : "teaser-product-listing"
+          }
+        ]
+      },
+      {
+        "component": "reference",
+        "valueType": "string",
+        "name": "image",
+        "label": "Image",
+        "multi": false
+      },
+      {
+        "component": "text",
+        "valueType": "string",
+        "name" : "imageAlt",
+        "label" : "Image Alt"
+      },
+      {
+        "component": "richtext",
+        "valueType": "string",
+        "name" : "teatercontent",
+        "label" : "Teaser content"
       }
     ]
   },
