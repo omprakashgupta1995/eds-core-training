@@ -202,6 +202,12 @@
             "value": "highlight"
           }
         ]
+      },
+      {
+        "component": "boolean",
+        "valueType": "boolean",
+        "name": "fg-carousel_loop",
+        "label": "Infinite Loop"
       }
     ]
   },
