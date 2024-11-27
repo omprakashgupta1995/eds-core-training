@@ -106,6 +106,10 @@
           {
             "name": "Highlight",
             "value": "highlight"
+          },
+          {
+            "name": "Relative",
+            "value": "relative"
           }
         ]
       }
@@ -293,8 +297,12 @@
         "label": "Style",
         "options": [
           {
-            "name": "Highlight",
-            "value": "highlight"
+            "name": "Only image",
+            "value": "only-image"
+          },
+          {
+            "name": "Plans carousel",
+            "value": "plans-carousel"
           }
         ]
       }
@@ -309,12 +317,12 @@
         "label": "Style",
         "options": [
           {
-            "name": "Only image",
-            "value": "only-image"
+            "name": "Only image slide",
+            "value": "only-image-slide"
           },
           {
-            "name": "Plans carousel",
-            "value": "plans-carousel"
+            "name": "Plans carousel slide",
+            "value": "plans-carousel-slide"
           }
         ]
       },
@@ -327,6 +335,11 @@
         "component": "text",
         "name": "imageAlt",
         "label": "Image Alt"
+      },
+      {
+        "component": "text",
+        "name": "redirection",
+        "label": "Enter redirection link"
       },
       {
         "component": "richtext",
