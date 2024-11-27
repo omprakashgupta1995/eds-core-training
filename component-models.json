@@ -106,6 +106,10 @@
           {
             "name": "Highlight",
             "value": "highlight"
+          },
+          {
+            "name": "Relative",
+            "value": "relative"
           }
         ]
       }
@@ -293,8 +297,12 @@
         "label": "Style",
         "options": [
           {
-            "name": "Highlight",
-            "value": "highlight"
+            "name": "Only image",
+            "value": "only-image"
+          },
+          {
+            "name": "Plans carousel",
+            "value": "plans-carousel"
           }
         ]
       }
@@ -309,29 +317,14 @@
         "label": "Style",
         "options": [
           {
-            "name": "Only image",
-            "value": "only-image"
+            "name": "Only image slide",
+            "value": "only-image-slide"
           },
           {
-            "name": "Plans carousel",
-            "value": "plans-carousel"
+            "name": "Plans carousel slide",
+            "value": "plans-carousel-slide"
           }
         ]
-      },
-      {
-        "component": "reference",
-        "name": "image",
-        "label": "Image"
-      },
-      {
-        "component": "text",
-        "name": "imageAlt",
-        "label": "Image Alt"
-      },
-      {
-        "component": "richtext",
-        "name": "content",
-        "label": "Content"
       }
     ]
   },
@@ -624,6 +617,35 @@
         "value": "",
         "label": "Text",
         "valueType": "string"
+      }
+    ]
+  },
+  {
+    "id": "hero-carousel-451",
+    "fields": [
+      {
+        "component" : "multiselect",
+        "name" : "classes",
+        "label" : "Hero Carousel Styles",
+        "options" : [
+          {
+            "name" : "full height",
+            "value" : "hero-carousel-full-height"
+          }
+        ]
+      },
+      {
+        "component": "boolean",
+        "valueType": "boolean",
+        "name": "isloop",
+        "label": "Enable Infinite Loop"
+      },
+      {
+        "component": "number",
+        "valueType": "number",
+        "value" : 1,
+        "name" : "slideDuration",
+        "label" : "Slide Duration"
       }
     ]
   },
