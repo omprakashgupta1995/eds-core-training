@@ -212,6 +212,97 @@
     ]
   },
   {
+    "id": "fg-embed",
+    "fields": [
+      {
+        "component": "multiselect",
+        "name": "classes",
+        "label": "Style",
+        "options": [
+          {
+            "name": "Highlight",
+            "value": "highlight"
+          }
+        ]
+      },
+      {
+        "component": "reference",
+        "name": "video-thumbnail",
+        "label": "Video Thumbnail"
+      },
+      {
+        "component": "text",
+        "name": "video-thumbnailAlt",
+        "label": "Video Thumbnail ALT"
+      },
+      {
+        "component": "text",
+        "name": "video-url",
+        "label": "Video URL"
+      },
+      {
+        "component": "text",
+        "name": "video-urlText",
+        "label": "Video URL Text"
+      }
+    ]
+  },
+  {
+    "id": "fg-banner",
+    "fields": [
+      {
+        "component": "multiselect",
+        "name": "classes",
+        "label": "Background Color",
+        "options": [
+          {
+            "name": "Desktop Style",
+            "children": [
+              {
+                "name": "Highlight",
+                "value": "highlight"
+              }
+            ]
+          },
+          {
+            "name": "Mobile Style",
+            "children": [
+              {
+                "name": "Mobile Highlight",
+                "value": "mobile-highlight"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "component": "reference",
+        "name": "banner_deskimg",
+        "label": "Desktop Image"
+      },
+      {
+        "component": "text",
+        "name": "banner_deskimgAlt",
+        "label": "Desktop Image Alt"
+      },
+      {
+        "component": "reference",
+        "name": "banner_mobimg",
+        "label": "Mobile Image"
+      },
+      {
+        "component": "text",
+        "name": "banner_mobimgAlt",
+        "label": "Mobile Image Alt"
+      },
+      {
+        "component": "richtext",
+        "name": "bannercol3_text",
+        "label": "Content"
+      }
+    ]
+  },
+  {
     "id": "carousel",
     "fields": [
       {

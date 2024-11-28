@@ -27,8 +27,14 @@
       "banner-456",
       "carousel-0642",
       "fg-banner-carousel",
+      "fg-banner",
+      "fg-embed",
       "carousel-401"
     ]
+  },
+  {
+    "id": "fg-banner-carousel",
+    "components": ["fg-banner", "fg-embed"]
   },
   {
     "id": "hero-carousel-451",
