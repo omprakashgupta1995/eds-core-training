@@ -1,0 +1,21 @@
+@import url(./swiper.css);
+
+.carousel-276-container {
+    /* max-width: 1200px; */
+    margin: 0 auto !important;
+}
+
+.carousel-276-wrapper{
+    width: 100%;
+    padding: unset !important;
+    max-width: 100% !important;
+    margin: unset !important;
+}
+
+ main img{
+width: 100%;
+}
+
+.carousel-276{
+    overflow: hidden;
+}
