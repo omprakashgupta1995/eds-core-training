@@ -1,16 +1,20 @@
 export default function decorate(block) {
-  Array.from(block.children).forEach((rowEle) => {
-    const firstDiv = rowEle.querySelector('div:nth-child(1)');
-    const img = firstDiv ? firstDiv.querySelector('img') : null;
-    if (img) {
-      const imgSrc = img.src;
+  const rows = Array.from(block.children);
 
-      block.style.backgroundImage = `url('${imgSrc}')`;
+  const items = rows[0];
 
-      const picture = firstDiv.querySelector('picture');
-      if (picture) {
-        picture.remove();
-      }
+  const firstDiv = items.querySelector('div:nth-child(1)');
+
+  const pictureElements = firstDiv ? firstDiv.querySelectorAll('picture') : '';
+  const desktopImgSrc = pictureElements[0]?.querySelector('img')?.src || 'none';
+  const mobileImgSrc = pictureElements[1]?.querySelector('img')?.src || 'none';
+
+  if (desktopImgSrc) {
+    if (window.innerWidth <= 768) {
+      block.style.backgroundImage = `url('${mobileImgSrc}')`;
+    } else {
+      block.style.backgroundImage = `url('${desktopImgSrc}')`;
     }
-  });
+  }
+  items.remove();
 }
