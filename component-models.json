@@ -1,5 +1,15 @@
 [
   {
+    "id": "page-metadata",
+    "fields": [
+      {
+        "component": "text",
+        "name": "theme",
+        "label": "Theme"
+      }
+    ]
+  },
+  {
     "id": "image",
     "fields": [
       {
@@ -940,7 +950,7 @@
         "component": "select",
         "name": "stitleType",
         "label": "Title Type",
-        "value":"h1",
+        "value": "h1",
         "options": [
           {
             "name": "h1",
@@ -968,7 +978,6 @@
           }
         ]
       }
-      
     ]
   }
 ]
