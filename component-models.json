@@ -9,6 +9,11 @@
       },
       {
         "component": "text",
+        "name": "og:title",
+        "label": "Page OG Title"
+      },
+      {
+        "component": "text",
         "name": "theme",
         "label": "Theme"
       }
